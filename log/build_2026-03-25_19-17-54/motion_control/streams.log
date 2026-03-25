@@ -1,0 +1,32 @@
+[1.089s] Invoking command in '/home/vsadnik/RTC_Cup/src/motion_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vsadnik/RTC_Cup/build/motion_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vsadnik/RTC_Cup/install/motion_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motion_control build --build-base /home/vsadnik/RTC_Cup/build/motion_control/build install --record /home/vsadnik/RTC_Cup/build/motion_control/install.log --single-version-externally-managed install_data
+[1.299s] running egg_info
+[1.300s] creating ../../build/motion_control/motion_control.egg-info
+[1.317s] writing ../../build/motion_control/motion_control.egg-info/PKG-INFO
+[1.318s] writing dependency_links to ../../build/motion_control/motion_control.egg-info/dependency_links.txt
+[1.318s] writing requirements to ../../build/motion_control/motion_control.egg-info/requires.txt
+[1.318s] writing top-level names to ../../build/motion_control/motion_control.egg-info/top_level.txt
+[1.319s] writing manifest file '../../build/motion_control/motion_control.egg-info/SOURCES.txt'
+[1.349s] reading manifest file '../../build/motion_control/motion_control.egg-info/SOURCES.txt'
+[1.349s] writing manifest file '../../build/motion_control/motion_control.egg-info/SOURCES.txt'
+[1.350s] running build
+[1.350s] running build_py
+[1.350s] creating /home/vsadnik/RTC_Cup/build/motion_control/build
+[1.350s] creating /home/vsadnik/RTC_Cup/build/motion_control/build/lib
+[1.351s] creating /home/vsadnik/RTC_Cup/build/motion_control/build/lib/motion_control
+[1.351s] copying motion_control/__init__.py -> /home/vsadnik/RTC_Cup/build/motion_control/build/lib/motion_control
+[1.351s] running install
+[1.355s] running install_lib
+[1.369s] creating /home/vsadnik/RTC_Cup/install/motion_control/lib/python3.12/site-packages/motion_control
+[1.370s] copying /home/vsadnik/RTC_Cup/build/motion_control/build/lib/motion_control/__init__.py -> /home/vsadnik/RTC_Cup/install/motion_control/lib/python3.12/site-packages/motion_control
+[1.370s] byte-compiling /home/vsadnik/RTC_Cup/install/motion_control/lib/python3.12/site-packages/motion_control/__init__.py to __init__.cpython-312.pyc
+[1.371s] running install_data
+[1.371s] creating /home/vsadnik/RTC_Cup/install/motion_control/share/ament_index
+[1.371s] creating /home/vsadnik/RTC_Cup/install/motion_control/share/ament_index/resource_index
+[1.372s] creating /home/vsadnik/RTC_Cup/install/motion_control/share/ament_index/resource_index/packages
+[1.372s] copying resource/motion_control -> /home/vsadnik/RTC_Cup/install/motion_control/share/ament_index/resource_index/packages
+[1.372s] copying package.xml -> /home/vsadnik/RTC_Cup/install/motion_control/share/motion_control
+[1.372s] running install_egg_info
+[1.385s] Copying ../../build/motion_control/motion_control.egg-info to /home/vsadnik/RTC_Cup/install/motion_control/lib/python3.12/site-packages/motion_control-0.0.0-py3.12.egg-info
+[1.387s] running install_scripts
+[1.486s] writing list of installed files to '/home/vsadnik/RTC_Cup/build/motion_control/install.log'
+[1.513s] Invoked command in '/home/vsadnik/RTC_Cup/src/motion_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vsadnik/RTC_Cup/build/motion_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vsadnik/RTC_Cup/install/motion_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motion_control build --build-base /home/vsadnik/RTC_Cup/build/motion_control/build install --record /home/vsadnik/RTC_Cup/build/motion_control/install.log --single-version-externally-managed install_data

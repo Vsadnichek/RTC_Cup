@@ -1,0 +1,5 @@
+[0.000000] (-) TimerEvent: {}
+[0.000326] (-) JobUnselected: {'identifier': 'experiments'}
+[0.000354] (-) JobUnselected: {'identifier': 'motion_control'}
+[0.000369] (-) JobUnselected: {'identifier': 'motion_interfaces'}
+[0.000381] (-) EventReactorShutdown: {}

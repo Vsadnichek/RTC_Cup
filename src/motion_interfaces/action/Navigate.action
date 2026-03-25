@@ -1,0 +1,13 @@
+# Команды движения на перекрёстках
+# Допустимые значения: "forward", "turn_left", "turn_right", "u_turn"
+
+string command     # команда движения
+float32 speed      # максимальная скорость движения
+
+---
+bool success       # успешно ли выполнилось
+string message     # сообщение об ошибке или статус
+
+---
+string current_action   # что сейчас делаем ("moving", "turning", "stopping")
+float32 progress        # прогресс выполнения 0.0 - 1.0

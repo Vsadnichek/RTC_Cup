@@ -1,0 +1,39 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from motion_interfaces/action/Navigate.action
+// generated code does not contain a copyright notice
+
+
+module motion_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Команды движения на перекрёстках" "\n"
+      "Допустимые значения: \"forward\", \"turn_left\", \"turn_right\", \"u_turn\"")
+    struct Navigate_Goal {
+      @verbatim (language="comment", text=
+        "команда движения")
+      string command;
+
+      @verbatim (language="comment", text=
+        "максимальная скорость движения")
+      float speed;
+    };
+    struct Navigate_Result {
+      @verbatim (language="comment", text=
+        "успешно ли выполнилось")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "сообщение об ошибке или статус")
+      string message;
+    };
+    struct Navigate_Feedback {
+      @verbatim (language="comment", text=
+        "что сейчас делаем (\"moving\", \"turning\", \"stopping\")")
+      string current_action;
+
+      @verbatim (language="comment", text=
+        "прогресс выполнения 0.0 - 1.0")
+      float progress;
+    };
+  };
+};

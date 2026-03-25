@@ -1,0 +1,27 @@
+[1.098s] Invoking command in '/home/vsadnik/RTC_Cup/src/experiments': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vsadnik/RTC_Cup/build/experiments/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vsadnik/RTC_Cup/install/experiments/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/experiments build --build-base /home/vsadnik/RTC_Cup/build/experiments/build install --record /home/vsadnik/RTC_Cup/build/experiments/install.log --single-version-externally-managed install_data
+[1.315s] running egg_info
+[1.315s] creating ../../build/experiments/experiments.egg-info
+[1.335s] writing ../../build/experiments/experiments.egg-info/PKG-INFO
+[1.335s] writing dependency_links to ../../build/experiments/experiments.egg-info/dependency_links.txt
+[1.335s] writing requirements to ../../build/experiments/experiments.egg-info/requires.txt
+[1.335s] writing top-level names to ../../build/experiments/experiments.egg-info/top_level.txt
+[1.335s] writing manifest file '../../build/experiments/experiments.egg-info/SOURCES.txt'
+[1.363s] reading manifest file '../../build/experiments/experiments.egg-info/SOURCES.txt'
+[1.363s] writing manifest file '../../build/experiments/experiments.egg-info/SOURCES.txt'
+[1.364s] running build
+[1.364s] running build_py
+[1.364s] creating /home/vsadnik/RTC_Cup/build/experiments/build
+[1.364s] creating /home/vsadnik/RTC_Cup/build/experiments/build/lib
+[1.365s] creating /home/vsadnik/RTC_Cup/build/experiments/build/lib/experiments
+[1.365s] copying experiments/__init__.py -> /home/vsadnik/RTC_Cup/build/experiments/build/lib/experiments
+[1.365s] running install
+[1.369s] running install_lib
+[1.383s] creating /home/vsadnik/RTC_Cup/install/experiments/lib/python3.12/site-packages/experiments
+[1.383s] copying /home/vsadnik/RTC_Cup/build/experiments/build/lib/experiments/__init__.py -> /home/vsadnik/RTC_Cup/install/experiments/lib/python3.12/site-packages/experiments
+[1.383s] byte-compiling /home/vsadnik/RTC_Cup/install/experiments/lib/python3.12/site-packages/experiments/__init__.py to __init__.cpython-312.pyc
+[1.384s] running install_data
+[1.384s] running install_egg_info
+[1.398s] Copying ../../build/experiments/experiments.egg-info to /home/vsadnik/RTC_Cup/install/experiments/lib/python3.12/site-packages/experiments-0.0.0-py3.12.egg-info
+[1.400s] running install_scripts
+[1.503s] writing list of installed files to '/home/vsadnik/RTC_Cup/build/experiments/install.log'
+[1.538s] Invoked command in '/home/vsadnik/RTC_Cup/src/experiments' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vsadnik/RTC_Cup/build/experiments/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vsadnik/RTC_Cup/install/experiments/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/experiments build --build-base /home/vsadnik/RTC_Cup/build/experiments/build install --record /home/vsadnik/RTC_Cup/build/experiments/install.log --single-version-externally-managed install_data

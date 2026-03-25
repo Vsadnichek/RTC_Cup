@@ -1,0 +1,19 @@
+[0.977s] Invoking command in '/home/vsadnik/RTC_Cup/src/experiments': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vsadnik/RTC_Cup/build/experiments/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vsadnik/RTC_Cup/install/experiments/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/experiments build --build-base /home/vsadnik/RTC_Cup/build/experiments/build install --record /home/vsadnik/RTC_Cup/build/experiments/install.log --single-version-externally-managed install_data
+[1.276s] running egg_info
+[1.302s] writing ../../build/experiments/experiments.egg-info/PKG-INFO
+[1.302s] writing dependency_links to ../../build/experiments/experiments.egg-info/dependency_links.txt
+[1.302s] writing requirements to ../../build/experiments/experiments.egg-info/requires.txt
+[1.303s] writing top-level names to ../../build/experiments/experiments.egg-info/top_level.txt
+[1.343s] reading manifest file '../../build/experiments/experiments.egg-info/SOURCES.txt'
+[1.345s] writing manifest file '../../build/experiments/experiments.egg-info/SOURCES.txt'
+[1.345s] running build
+[1.345s] running build_py
+[1.345s] running install
+[1.350s] running install_lib
+[1.370s] running install_data
+[1.370s] running install_egg_info
+[1.394s] removing '/home/vsadnik/RTC_Cup/install/experiments/lib/python3.12/site-packages/experiments-0.0.0-py3.12.egg-info' (and everything under it)
+[1.394s] Copying ../../build/experiments/experiments.egg-info to /home/vsadnik/RTC_Cup/install/experiments/lib/python3.12/site-packages/experiments-0.0.0-py3.12.egg-info
+[1.396s] running install_scripts
+[1.536s] writing list of installed files to '/home/vsadnik/RTC_Cup/build/experiments/install.log'
+[1.569s] Invoked command in '/home/vsadnik/RTC_Cup/src/experiments' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vsadnik/RTC_Cup/build/experiments/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vsadnik/RTC_Cup/install/experiments/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/experiments build --build-base /home/vsadnik/RTC_Cup/build/experiments/build install --record /home/vsadnik/RTC_Cup/build/experiments/install.log --single-version-externally-managed install_data
